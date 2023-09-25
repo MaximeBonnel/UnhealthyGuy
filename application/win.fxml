@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorwin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerWin">
+   <children>
+      <ImageView layoutX="235.0" layoutY="183.0" scaleX="2.4" scaleY="2.0">
+         <image>
+            <Image url="@../barJava.jpg" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="-97.0" layoutY="225.0" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../troll-face-44.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonspam" layoutX="636.0" layoutY="200.0" mnemonicParsing="false" onAction="#spambutton" text="You win , spam that button bro !" />
+      <Label fx:id="label" contentDisplay="CENTER" layoutX="717.0" layoutY="97.0" prefHeight="54.0" prefWidth="151.0" text="SPAM " textAlignment="CENTER" textFill="#ff0606">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="labeltxtWin" layoutX="548.0" layoutY="410.0" prefHeight="78.0" prefWidth="223.0" text="WINNER OR LOOSER ?" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

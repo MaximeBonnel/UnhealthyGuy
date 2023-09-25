@@ -1,0 +1,37 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#anchor{
+	-fx-background-image: url('../RueDessin.PNG');
+	-fx-background-size: auto 100%;
+}
+
+#anchorwin{
+ /* 	-fx-background-color:grey; */
+	-fx-background-size: auto 100%;
+		-fx-background-image:url('../RueDessin.PNG');
+}
+
+#boutondroit{
+	
+	-fx-background-color:pink;
+}
+
+#boutongauche{
+	
+	-fx-background-color:pink;
+}
+
+#buttonspam{
+	-fx-background-color:pink;
+	 
+}
+
+#label{
+	
+	-fx-font-weight: bold;
+}
+
+#labeltxtWin{
+	
+	 -fx-font-weight: bold;
+	 -fx-background-color:black;
+}
